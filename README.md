@@ -29,7 +29,7 @@ Each line is its own command. If you get a error like python is not recognized a
 **Step 5**: Download and extract the files in this repository. When you're done, click into the folder where you'll find two folders (e7 and screenshots) and two files.
 
 Right click ‘e7_ocr_gear_2200x1080.py’ and open with Notepad.
-1. Make sure that ``"C:/Program Files (x86)/Tesseract-OCR/tesseract"`` is indeed the install location of your tesseract, if not, change that line.
+1. Make sure that ``C:/Program Files (x86)/Tesseract-OCR/tesseract`` is indeed the install location of your tesseract, if not, change that line (pytesseract.pytesseract.tesseract_cmd).
 2. Similarly, change the line under it (TESSDATA_PREFIX) to match the folder location.
 3. Change the next line (PATH_SCREENSHOTS) to match the location that you extracted the files from the repository. The default assumes it is on your desktop.
 4. Save and exit.
