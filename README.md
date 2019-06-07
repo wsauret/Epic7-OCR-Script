@@ -1,20 +1,26 @@
-Directions by /u/Aicilia: https://www.reddit.com/r/EpicSeven/comments/bv2hkx/ocr_gear_exporter_installation_guide_courtesy_of/
+## Directions by [/u/Aicilia](https://www.reddit.com/r/EpicSeven/comments/bv2hkx/ocr_gear_exporter_installation_guide_courtesy_of/) for Windows
 
-Step 1: Download and Install Python 3.6.1 - https://www.python.org/ftp/python/3.6.1/python-3.6.1.exe
+**Step 1**: Download and Install Python 3.6.1 - https://www.python.org/ftp/python/3.6.1/python-3.6.1.exe
 
 Important: Before you click install now, be sure that Python 3.6 is in your PATH variable
 
-Step 2: Download and Install Tesseract-OCR - https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.0.0.20190526.exe
+**Step 2**: Download and Install Tesseract-OCR - https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.0.0.20190526.exe
 
-Step 3: Open CMD prompt. (search -> run -> cmd)
-1. python -m pip install --upgrade pip 
-2. pip install pillow
-3. pip install pytesseract
-4. pip3 install opencv-python
-5. pip install matplotlib
-Each line is its own command. If you get a error like python is not recognized as an internal or external command, you might have forgotten to check the box when installing python, in which case, please look up how to add python to path or uninstall/reinstall)
+**Step 3**: Open CMD prompt. (search -> run -> cmd)
 
-Step 4: Download and extract the files in this repository. When you're done, click into the folder where you'll find two folders (e7 and screenshots) and two files.
+``1. python -m pip install --upgrade pip``
+
+``2. pip install pillow``
+
+``3. pip install pytesseract``
+
+``4. pip3 install opencv-python``
+
+``5. pip install matplotlib``
+
+Each line is its own command. If you get a error like python is not recognized as an internal or external command, you might have forgotten to check the box when installing python, in which case, please look up how to add python to PATH or uninstall/reinstall)
+
+**Step 4**: Download and extract the files in this repository. When you're done, click into the folder where you'll find two folders (e7 and screenshots) and two files.
 
 Right click ‘e7_ocr_gear_2200x1080’ and open with Notepad. Make sure that ‘C:/Program Files (x86)/Tesseract-OCR/tesseract’ is indeed the install location of your tesseract, if not, change that line and the line under it that has the folder location.
 
