@@ -1,5 +1,11 @@
 ## Directions by [/u/Aicilia](https://www.reddit.com/r/EpicSeven/comments/bv2hkx/ocr_gear_exporter_installation_guide_courtesy_of/) for Windows
 
+My friend /u/max030994 also made a live version of this and a video explaining it here: https://www.youtube.com/watch?v=z_-mKcHoWwg
+
+**Step 1**: You will only be able to use this OCR file in conjunction with screenshots of your gear. The screenshots are most easily taken in an emulator. You must set the emulator resolution to 2200x1080. LDPlayer supports this resolution, others may as well. To be clear, your compter screen doesn't need to be 2200x1080, just the emulator settings
+
+When taking the screenshots be sure to tap on each piece of gear before screenshotting. Do not hover/hold down your finger on each one, as the placement of the item box is different between tapping and holding.
+
 **Step 1**: Download and Install Python 3.6.1 - https://www.python.org/ftp/python/3.6.1/python-3.6.1.exe
 
 Important: Before you click install now, be sure that Python 3.6 is in your PATH variable
