@@ -24,7 +24,7 @@ Important: Before you click install now, be sure that Python 3.6 is in your PATH
 
 ``pip install matplotlib``
 
-Run each line in succession. If you get a error like python is not recognized as an internal or external command, you might have forgotten to check the box when installing python, in which case, please look up how to add python to PATH or uninstall/reinstall)
+Run each line in succession. If you get a error like 'python is not recognized', you might have forgotten to check the box when installing python, in which case, please look up how to add python to PATH or uninstall/reinstall)
 
 **Step 5**: Download and extract the files in this repository. When you're done, click into the folder where you'll find two folders (e7 and screenshots) and two files.
 
