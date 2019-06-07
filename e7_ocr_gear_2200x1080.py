@@ -1,8 +1,6 @@
 """
 Copyright (r) by CompeAnansi
-
 Export gear using OCR for E7
-
 """
 
 from PIL import Image
@@ -15,18 +13,17 @@ import cv2
 import json
 from matplotlib import pyplot as plt
 
-pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Utilitaires/Tesseract-OCR/tesseract'
-TESSDATA_PREFIX = r'C:\Program Files (x86)\Utilitaires\Tesseract-OCR'
-PATH_SCREENSHOTS = r'E:\_USER_\Bureau\epic7\screenshots\*'
+# Make sure these values match where you installed everything!
+pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract'
+TESSDATA_PREFIX = r'C:\Program Files (x86)\Tesseract-OCR'
+PATH_SCREENSHOTS = r'C:\_USER_\Desktop\epic7-master\epic7-master\screenshots\*'
 
-USE_CUSTOM_TEMPLATE = True
+# Set to the resolution of the custom template if you want to use one!
+# Please feel free to send MERGE requests if you want to add more templates
+TEMPLATE = ''
 
-
-TOP_IMG = 'e7/top.jpg'
-BOTTOM_IMG = 'e7/bottom.jpg'
-
-if USE_CUSTOM_TEMPLATE:
-    # This one is Huawei P20 Pro - 2159x1080
+if TEMPLATE == '2159x1080':
+    # This one is for the Huawei P20 Pro - 2159x1080
     TOPBOX_HEIGHT = 160
     TOPBOX_WIDTH = 430
     BOTTOMBOX_HEIGHT = 335
@@ -38,9 +35,8 @@ if USE_CUSTOM_TEMPLATE:
     MAIN_COORD = [[8, 70], [65, 435]]
     SUBS_COORD = [[98, 255], [25, 435]]
     SET_COORD = [[280, 340], [76, 435]]
-
 else:
-    # This one is original template
+    # This is original 2200x180 template
     TOPBOX_HEIGHT = 160
     TOPBOX_WIDTH = 450
     BOTTOMBOX_HEIGHT = 335
@@ -53,6 +49,9 @@ else:
     SUBS_COORD = [[98, 255], [25, 435]]
     SET_COORD = [[280, 340], [76, 435]]
 
+TOP_IMG = 'e7/top.jpg'
+BOTTOM_IMG = 'e7/bottom.jpg'
+    
 def process(k, img):
     if k == 'level' or k == 'plus':
         thresh = cv2.THRESH_BINARY
@@ -193,15 +192,12 @@ for name in filenames:
     # print(item)
     print(len(export['items']), len(filenames))
 
-# export["heroes"].append(chars)
-
 # Export to json for importing into optimizer: https://eseo-8a854.firebaseapp.com/
 with open('e7/endure.json', 'w') as fp:
     json.dump(export, fp)
 
 """
 # TROUBLESHOOTING
-
 img = cv2.imread('screenshots/Screenshot_20190327-091811.jpg')
 temp_top = cv2.imread(TOP_IMG, 0)
 _, _, _, max_loc = cv2.minMaxLoc(
@@ -223,7 +219,6 @@ plt.show()
 image_to_string(Image.fromarray(proc), lang='eng', config='--psm 6')
 
 # TROUBLESHOOTING
-
 img = cv2.imread('screenshots/Screenshot_20190327-091811.jpg')
 temp_bot = cv2.imread(BOTTOM_IMG, 0)
 _, _, _, max_loc = cv2.minMaxLoc(
