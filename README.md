@@ -1,4 +1,4 @@
-Directions by /u/Aicilia
+Directions by /u/Aicilia: https://www.reddit.com/r/EpicSeven/comments/bv2hkx/ocr_gear_exporter_installation_guide_courtesy_of/
 
 Step 1: Download and Install Python 3.6.1 - https://www.python.org/ftp/python/3.6.1/python-3.6.1.exe
 
@@ -18,9 +18,7 @@ Step 4: Download and extract the files in this repository. When you're done, cli
 
 Right click ‘e7_ocr_gear_2200x1080’ and open with Notepad. Make sure that ‘C:/Program Files (x86)/Tesseract-OCR/tesseract’ is indeed the install location of your tesseract, if not, change that line and the line under it that has the folder location.
 
-Then, scroll down to “filenames = glob(r'C:\Users\Matthew\Documents\python scripts\screenshots\*')” and replace 'C:\Users\Matthew\Documents\python scripts\screenshots\*’ with the location of the screenshots folder that was included in the zip you extracted. Make sure you keep the *’ at the end. So for example, if you downloaded and extracted the zip to your desktop, the line should look like
-
-filenames = glob(r'C:\Users\Aicilia\Desktop\epic7-master\epic7-master\screenshots\*')
+Then, scroll down to “filenames = glob(r'C:\Users\Matthew\Documents\python scripts\screenshots\*')” and replace 'C:\Users\Matthew\Documents\python scripts\screenshots\*’ with the location of the screenshots folder that was included in the zip you extracted. Make sure you keep the *’ at the end. So for example, if you downloaded and extracted the zip to your desktop, the line should look like: filenames = glob(r'C:\Users\Aicilia\Desktop\epic7-master\epic7-master\screenshots\*')
 
 Save and exit.
 
