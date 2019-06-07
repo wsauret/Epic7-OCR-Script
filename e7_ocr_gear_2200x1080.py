@@ -14,9 +14,9 @@ import json
 from matplotlib import pyplot as plt
 
 # Make sure these values match where you installed everything!
-pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract'
-TESSDATA_PREFIX = r'C:\Program Files (x86)\Tesseract-OCR'
-PATH_SCREENSHOTS = r'C:\_USER_\Desktop\epic7-master\epic7-master\screenshots\*'
+pytesseract.pytesseract.tesseract_cmd = "C:/Program Files (x86)/Tesseract-OCR/tesseract"
+TESSDATA_PREFIX = r"C:\Program Files (x86)\Tesseract-OCR"
+PATH_SCREENSHOTS = r"C:\_USER_\Desktop\epic7-master\epic7-master\screenshots\*"
 
 # Set to the resolution of the custom template if you want to use one!
 # Please feel free to send MERGE requests if you want to add more templates
@@ -36,7 +36,7 @@ if TEMPLATE == '2159x1080':
     SUBS_COORD = [[98, 255], [25, 435]]
     SET_COORD = [[280, 340], [76, 435]]
 else:
-    # This is original 2200x180 template
+    # This is original 2200x1080 template
     TOPBOX_HEIGHT = 160
     TOPBOX_WIDTH = 450
     BOTTOMBOX_HEIGHT = 335
@@ -117,10 +117,8 @@ def char_filter(val):
     return ''.join(filter(str.isalpha, val)).capitalize()
 
 
-# Format for optimizer
-export = {"processVersion": "1", "heroes": [
-    {"devotion": "", "artifactStats": {"atk": 0, "hp": 0}, "count": 1, "name": "Angelica 1", "level": 60, "awakened": 5,
-     "baseHeroId": "angelica", "equipment": {}, "id": "jtm1cdd3"}], "items": []}
+# Format for optimizer // This will overwrite any heroes you already entered into the optimizer!
+export = {"processVersion": "1", "heroes": [], "items": []}
 
 # Iterate through the files
 filenames = glob(PATH_SCREENSHOTS)
