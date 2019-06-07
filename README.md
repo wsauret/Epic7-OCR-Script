@@ -30,8 +30,8 @@ Right click ‘e7_ocr_gear_2200x1080.py’ and open with Notepad.
 
 After that, you add your 2200x1080 screenshots into the screenshots folder. There is an example image in there so that you know how to take it. Just open your inventory up and click the item and then take a screenshot. Make sure you delete the example screenshot so you don't find it in the optimizer.
 
-Once you have put your screenshots in the folder, double click on 'e7_ocr_gear_2200x1080' so you run it (with python). It will go through each image one at a time and have a count of what image out of total it is through. Once it is finished, it will export in .json to the e7 folder with the name 'endure' and automatically close itself.
+Once you have put your screenshots in the folder, double click on 'e7_ocr_gear_2200x1080' so you run it (with python). It will go through each image one at a time and have a count of what image out of total it is through. Once it is finished, it will export a json to the e7 folder with the name 'endure.json' and automatically close itself.
 
 **Step 5**: Download the latest version of the optimizer here: https://github.com/Zarroc2762/E7-Gear-Optimizer/releases
 
-Then, you simply import that into the optimizer, add the heroes you want to optimize your gear for, and proceed.
+Then, you simply import the json into the optimizer, add the heroes you want to optimize your gear for, and proceed.
