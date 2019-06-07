@@ -6,13 +6,13 @@ My friend /u/max030994 also made a live version of this and a video explaining i
 
 When taking the screenshots be sure to tap on each piece of gear before screenshotting. Do not hover/hold down your finger on each one, as the placement of the item box is different between tapping and holding.
 
-**Step 1**: Download and Install Python 3.6.1 - https://www.python.org/ftp/python/3.6.1/python-3.6.1.exe
+**Step 2**: Download and Install Python 3.6.1 - https://www.python.org/ftp/python/3.6.1/python-3.6.1.exe
 
 Important: Before you click install now, be sure that Python 3.6 is in your PATH variable
 
-**Step 2**: Download and Install Tesseract-OCR - https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.0.0.20190526.exe
+**Step 3**: Download and Install Tesseract-OCR - https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.0.0.20190526.exe
 
-**Step 3**: Open CMD prompt. (search -> run -> cmd)
+**Step 4**: Open CMD prompt. (search -> run -> cmd)
 
 ``1. python -m pip install --upgrade pip``
 
@@ -26,7 +26,7 @@ Important: Before you click install now, be sure that Python 3.6 is in your PATH
 
 Each line is its own command. If you get a error like python is not recognized as an internal or external command, you might have forgotten to check the box when installing python, in which case, please look up how to add python to PATH or uninstall/reinstall)
 
-**Step 4**: Download and extract the files in this repository. When you're done, click into the folder where you'll find two folders (e7 and screenshots) and two files.
+**Step 5**: Download and extract the files in this repository. When you're done, click into the folder where you'll find two folders (e7 and screenshots) and two files.
 
 Right click ‘e7_ocr_gear_2200x1080.py’ and open with Notepad.
 1. Make sure that ``"C:/Program Files (x86)/Tesseract-OCR/tesseract"`` is indeed the install location of your tesseract, if not, change that line.
@@ -38,6 +38,6 @@ After that, you add your 2200x1080 screenshots into the screenshots folder. Ther
 
 Once you have put your screenshots in the folder, double click on 'e7_ocr_gear_2200x1080' so you run it (with python). It will go through each image one at a time and have a count of what image out of total it is through. Once it is finished, it will export a json to the e7 folder with the name 'endure.json' and automatically close itself.
 
-**Step 5**: Download the latest version of the optimizer here: https://github.com/Zarroc2762/E7-Gear-Optimizer/releases
+**Step 6**: Download the latest version of the optimizer here: https://github.com/Zarroc2762/E7-Gear-Optimizer/releases
 
 Then, you simply import the json into the optimizer, add the heroes you want to optimize your gear for, and proceed.
