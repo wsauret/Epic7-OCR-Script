@@ -14,21 +14,21 @@ Important: Before you click install now, be sure that Python 3.6 is in your PATH
 
 **Step 4**: Open CMD prompt. (search -> run -> cmd)
 
-``1. python -m pip install --upgrade pip``
+``python -m pip install --upgrade pip``
 
-``2. pip install pillow``
+``pip install pillow``
 
-``3. pip install pytesseract``
+``pip install pytesseract``
 
-``4. pip3 install opencv-python``
+``pip3 install opencv-python``
 
-``5. pip install matplotlib``
+``pip install matplotlib``
 
-Each line is its own command. If you get a error like python is not recognized as an internal or external command, you might have forgotten to check the box when installing python, in which case, please look up how to add python to PATH or uninstall/reinstall)
+Run each line in succession. If you get a error like python is not recognized as an internal or external command, you might have forgotten to check the box when installing python, in which case, please look up how to add python to PATH or uninstall/reinstall)
 
 **Step 5**: Download and extract the files in this repository. When you're done, click into the folder where you'll find two folders (e7 and screenshots) and two files.
 
-Right click ‘e7_ocr_gear_2200x1080.py’ and open with Notepad.
+Right click e7_ocr_gear_2200x1080.py and open with Notepad.
 1. Make sure that ``C:/Program Files (x86)/Tesseract-OCR/tesseract`` is indeed the install location of your tesseract, if not, change that line (pytesseract.pytesseract.tesseract_cmd).
 2. Similarly, change the line under it (TESSDATA_PREFIX) to match the folder location.
 3. Change the next line (PATH_SCREENSHOTS) to match the location that you extracted the files from the repository. The default assumes it is on your desktop.
@@ -36,7 +36,7 @@ Right click ‘e7_ocr_gear_2200x1080.py’ and open with Notepad.
 
 After that, you add your 2200x1080 screenshots into the screenshots folder. There is an example image in there so that you know how to take it. Just open your inventory up and click the item and then take a screenshot. Make sure you delete the example screenshot so you don't find it in the optimizer.
 
-**Step 6**: Double click on 'e7_ocr_gear_2200x1080.py' to run it. It will go through each image, showing the current count as it goes. Once it finishes, it will export a json to the e7 folder with the name 'endure.json' and automatically close itself.
+**Step 6**: Double click on e7_ocr_gear_2200x1080.py to run it. It will go through each image, showing the current count as it goes. Once it finishes, it will export a json to the e7 folder with the name 'endure.json' and automatically close itself.
 
 **Step 7**: Download the latest version of the optimizer here: https://github.com/Zarroc2762/E7-Gear-Optimizer/releases
 
