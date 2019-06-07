@@ -22,11 +22,11 @@ Each line is its own command. If you get a error like python is not recognized a
 
 **Step 4**: Download and extract the files in this repository. When you're done, click into the folder where you'll find two folders (e7 and screenshots) and two files.
 
-Right click ‘e7_ocr_gear_2200x1080’ and open with Notepad. Make sure that ‘C:/Program Files (x86)/Tesseract-OCR/tesseract’ is indeed the install location of your tesseract, if not, change that line and the line under it that has the folder location.
-
-Then, scroll down to “filenames = glob(r'C:\Users\Matthew\Documents\python scripts\screenshots\*')” and replace 'C:\Users\Matthew\Documents\python scripts\screenshots\*’ with the location of the screenshots folder that was included in the zip you extracted. Make sure you keep the *’ at the end. So for example, if you downloaded and extracted the zip to your desktop, the line should look like: filenames = glob(r'C:\Users\Aicilia\Desktop\epic7-master\epic7-master\screenshots\*')
-
-Save and exit.
+Right click ‘e7_ocr_gear_2200x1080.py’ and open with Notepad.
+1. Make sure that ``"C:/Program Files (x86)/Tesseract-OCR/tesseract"`` is indeed the install location of your tesseract, if not, change that line.
+2. Similarly, change the line under it (TESSDATA_PREFIX) to match the folder location.
+3. Change the next line (PATH_SCREENSHOTS) to match the location that you extracted the files from the repository. The default assumes it is on your desktop.
+4. Save and exit.
 
 After that, you add your 2200x1080 screenshots into the screenshots folder. There is an example image in there so that you know how to take it. Just open your inventory up and click the item and then take a screenshot. Make sure you delete the example screenshot so you don't find it in the optimizer.
 
