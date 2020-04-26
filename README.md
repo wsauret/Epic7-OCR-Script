@@ -1,4 +1,4 @@
-## Directions by [/u/Aicilia](https://www.reddit.com/r/EpicSeven/comments/bv2hkx/ocr_gear_exporter_installation_guide_courtesy_of/) for Windows
+## Directions for Windows
 
 My friend /u/max030994 also made a live version of this and a video explaining it here: https://www.youtube.com/watch?v=z_-mKcHoWwg
 
@@ -28,7 +28,7 @@ Run each line in succession. If you get a error like 'python is not recognized',
 
 After that, you add your 2200x1080 screenshots into the screenshots folder. There is an example image in there so that you know how to take it. Just open your inventory up and click the item and then take a screenshot. Make sure you delete the example screenshot so you don't find it in the optimizer.
 
-**Step 6**: Double click on e7_ocr_gear_2200x1080.py to run it. It will go through each image, showing the current count as it goes. Once it finishes, it will export a json to the e7 folder with the name 'endure.json' and automatically close itself.
+**Step 6**: Run Anaconda Navigator. Launch JupyterLab. From within JupyterLab load the "E7 Gear OCR.ipynb" file you downloaded in this repository. Then go to Run > Run All Cells.
 
 **Step 7**: Download the latest version of the optimizer here: https://github.com/Zarroc2762/E7-Gear-Optimizer/releases
 
