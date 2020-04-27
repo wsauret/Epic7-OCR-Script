@@ -19,7 +19,7 @@ You should see "Successfully installed [package name]" after each. Close the pro
 
 **Step 5**: Download the files in this repository. On the main page click Clone or Download > Download ZIP. Extract the files somewhere (I just extracted the folder within the ZIP file to the downloads folder)
 
-**Step 6**: Return to Anaconda Navigator. Launch JupyterLab. This will open a browser window. On the lefthand side, navigate to where you extracted the folder (in my case: Downloads/epic7-master). Double click on E7 Gear OCR.ipynb. This will open the code for the OCR script.
+**Step 6**: Return to Anaconda Navigator. Launch JupyterLab. This will open a browser window. On the lefthand side, navigate to where you extracted the folder (in my case: Downloads/epic7-master). Double click on "E7 Gear OCR.ipynb". This will open the code for the OCR script.
 
 **Step 7** The first thing to do is to uncomment (delete the # in front of) these lines since we're doing this in windows:
 
@@ -31,8 +31,8 @@ Next, make sure the path to tesseract listed in these two lines is the same as t
 
 Finally, let's do a test run! Go to **Run > Run All Cells**. If you scroll down to the bottom of the window, you'll see a text progress indicator. When you see "JSON file finished!" you should see a new file on the lefthand side: "exported_gear.json". Double click that. If next to "items: []" it says "1 item" then the test run worked correctly. You can click the arrow to expand "items: []" if you want to see what the data looks like.
 
-**Step 8** In the screenshots folder (in the epic7-master folder you downloaded and extracted) there is a sample image that we just tested the script on. Delete that file and copy your 2200x1080 screenshots to the folder from the screenshots directory for your chosen emulator. Go back to JupyterLab and do **Run > Run All Cells** again. This will overwrite the "exported_gear.json" file from earlier with one that has all your gear in it.
+**Step 8** In the screenshots folder (in the epic7-master folder you downloaded and extracted) there is a sample image that we just tested the script on. Delete that image and copy your 2200x1080 screenshots to the folder from the screenshots directory for your chosen emulator. Go back to JupyterLab and do **Run > Run All Cells** again. This will overwrite the "exported_gear.json" file from earlier with one that has all your gear in it.
 
-**Step 9**: Download the latest version of the optimizer here: https://github.com/Zarroc2762/E7-Gear-Optimizer/releases
+**Step 9**: Download the latest version of the optimizer here: https://github.com/Zarroc2762/E7-Gear-Optimizer/releases and extract it. After running the optimizer, select "Import JSON from web optimizer (/u/HyrTheWinter)". Then click Import and browse to the folder that exported_gear.json is in and load it. You should see green text at the bottom saying "Succesfully imported 0 heroes and X items..." where x is the number of screenshots you took. Congratulations, you're done!
 
-Then, you simply import the json into the optimizer, add the heroes you want to optimize your gear for, and proceed.
+**Note:** In the future all you need to do is to copy your new screenshots into the screenshots folder, open "E7 Gear OCR.ipynb" in JupyterLab, do Run > Run All Cells. This will give you your new json file. If you want to keep the heroes you previously added to the optimizer, I suggest that you first delete all the items in the optimizer: go to the Inventory tab, highlight all the items, click the "-" button. Then on the General tab click the "Append" button (instead of "Import") and load your new json. This will add your up to date gear into the optimizer while keeping your heroes.
