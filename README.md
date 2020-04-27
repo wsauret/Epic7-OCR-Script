@@ -12,6 +12,7 @@ Make a note of which directory you install tesseract to, this will be important 
 **Step 4**: Run Anaconda Navigator, which was installed as a part of the Anaconda distribution. Launch "Powershell Prompt". Copy and paste the two lines below, in order, hitting enter after each.
 
 ``pip install pytesseract``
+
 ``pip install opencv-python``
 
 You should see "Successfully installed [package name]" after each. Close the prompt when done.
@@ -23,6 +24,7 @@ You should see "Successfully installed [package name]" after each. Close the pro
 **Step 7** The first thing to do is to uncomment (delete the # in front of) these lines since we're doing this in windows:
 
 ``pytesseract.pytesseract.tesseract_cmd = "C:/Program Files (x86)/Tesseract-OCR/tesseract"``
+
 ``TESSDATA_PREFIX = r"C:\Program Files (x86)\Tesseract-OCR"``
 
 Next, make sure the path to tesseract listed in these two lines is the same as the one tesseract was installed to earlier.
