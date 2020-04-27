@@ -10,9 +10,7 @@ When taking the screenshots be sure to tap on each piece of gear before screensh
 
 **Step 3**: Download and Install Tesseract-OCR - https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.0.0.20190526.exe
 
-**Step 4**: Open CMD prompt. (search -> run -> cmd)
-
-``python -m pip install --upgrade pip``
+**Step 4**: Open Anaconda Prompt
 
 ``pip install pillow``
 
@@ -22,7 +20,7 @@ When taking the screenshots be sure to tap on each piece of gear before screensh
 
 ``pip install matplotlib``
 
-Run each line in succession. If you get a error like 'python is not recognized', please look up how to add python to the PATH variable.
+Run each line in succession
 
 **Step 5**: Download and extract the files in this repository. In the screenshots folder there is a sample image for testing to make sure everything is setup right. We know it works with this file, so test your setup first with just that file. If it works, then delete it and add your 2200x1080 screenshots to the folder. How do we actually run the file?
 
