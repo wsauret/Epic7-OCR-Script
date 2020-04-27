@@ -1,31 +1,36 @@
 ## Directions for Windows
 
-My friend /u/max030994 also made a live version of this and a video explaining it here: https://www.youtube.com/watch?v=z_-mKcHoWwg
+**Step 1**: Take the screenshots. You will only be able to use this OCR file in conjunction with screenshots of each piece of gear you want in the optimizer. The screenshots are must be taken in an emulator and you must set the emulator resolution to **2200x1080**. Nox and LDPlayer support this resolution, others may as well.
 
-**Step 1**: You will only be able to use this OCR file in conjunction with screenshots of your gear. The screenshots are most easily taken in an emulator. You must set the emulator resolution to 2200x1080. Nox and LDPlayer support this resolution, others may as well.
-
-When taking the screenshots be sure to tap on each piece of gear before screenshotting. Do not hover/hold down your finger on each one, as the placement of the item box is different between tapping and holding.
+When taking the screenshots be sure to **tap** on each piece of gear before screenshotting. Do not hover/hold down your finger on each one, as the placement of the item box is different between tapping and holding. Once you've screenshotted all your gear, move on to the next step.
 
 **Step 2**: Download and install the Anaconda python distribution - https://repo.anaconda.com/archive/Anaconda3-2020.02-Windows-x86_64.exe
 
 **Step 3**: Download and Install Tesseract-OCR - https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.0.0.20190526.exe
+Make a note of which directory you install tesseract to, this will be important later.
 
-**Step 4**: Open Anaconda Prompt
-
-``pip install pillow``
+**Step 4**: Run Anaconda Navigator, which was installed as a part of the Anaconda distribution. Launch "Powershell Prompt". Copy and paste the two lines below, in order, hitting enter after each.
 
 ``pip install pytesseract``
-
 ``pip install opencv-python``
 
-``pip install matplotlib``
+You should see "Successfully installed [package name]" after each. Close the prompt when done.
 
-Run each line in succession
+**Step 5**: Download the files in this repository. On the main page click Clone or Download > Download ZIP. Extract the files somewhere (I just extracted the folder within the ZIP file to the downloads folder)
 
-**Step 5**: Download and extract the files in this repository. In the screenshots folder there is a sample image for testing to make sure everything is setup right. We know it works with this file, so test your setup first with just that file. If it works, then delete it and add your 2200x1080 screenshots to the folder. How do we actually run the file?
+**Step 6**: Return to Anaconda Navigator. Launch JupyterLab. This will open a browser window. On the lefthand side, navigate to where you extracted the folder (in my case: Downloads/epic7-master). Double click on E7 Gear OCR.ipynb. This will open the code for the OCR script.
 
-**Step 6**: Run Anaconda Navigator. Launch JupyterLab. From within JupyterLab load the "E7 Gear OCR.ipynb" file you downloaded in this repository. Make sure the path to tesseract listed towards the top of this file is the same as the one tesseract was installed to. Then go to **Run > Run All Cells**. This will create a json file with all your gear in it in the same folder as E7 Gear OCR.ipynb
+**Step 7** The first thing to do is to uncomment (delete the # in front of) these lines since we're doing this in windows:
 
-**Step 7**: Download the latest version of the optimizer here: https://github.com/Zarroc2762/E7-Gear-Optimizer/releases
+``pytesseract.pytesseract.tesseract_cmd = "C:/Program Files (x86)/Tesseract-OCR/tesseract"``
+``TESSDATA_PREFIX = r"C:\Program Files (x86)\Tesseract-OCR"``
+
+Next, make sure the path to tesseract listed in these two lines is the same as the one tesseract was installed to earlier.
+
+Finally, let's do a test run! Go to **Run > Run All Cells**. If you scroll down to the bottom of the window, you'll see a text progress indicator. When you see "JSON file finished!" you should see a new file on the lefthand side: "exported_gear.json". Double click that. If next to "items: []" it says "1 item" then the test run worked correctly. You can click the arrow to expand "items: []" if you want to see what the data looks like.
+
+**Step 8** In the screenshots folder (in the epic7-master folder you downloaded and extracted) there is a sample image that we just tested the script on. Delete that file and copy your 2200x1080 screenshots to the folder from the screenshots directory for your chosen emulator. Go back to JupyterLab and do **Run > Run All Cells** again. This will overwrite the "exported_gear.json" file from earlier with one that has all your gear in it.
+
+**Step 9**: Download the latest version of the optimizer here: https://github.com/Zarroc2762/E7-Gear-Optimizer/releases
 
 Then, you simply import the json into the optimizer, add the heroes you want to optimize your gear for, and proceed.
