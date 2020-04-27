@@ -28,7 +28,7 @@ Run each line in succession. If you get a error like 'python is not recognized',
 
 After that, you add your 2200x1080 screenshots into the screenshots folder. There is an example image in there so that you know how to take it. Just open your inventory up and click the item and then take a screenshot. Make sure you delete the example screenshot so you don't find it in the optimizer.
 
-**Step 6**: Run Anaconda Navigator. Launch JupyterLab. From within JupyterLab load the "E7 Gear OCR.ipynb" file you downloaded in this repository. Then go to Run > Run All Cells.
+**Step 6**: Run Anaconda Navigator. Launch JupyterLab. From within JupyterLab load the "E7 Gear OCR.ipynb" file you downloaded in this repository. Then go to Run > Run All Cells. This will create a json file with all your gear in it in the same folder as E7 Gear OCR.ipynb
 
 **Step 7**: Download the latest version of the optimizer here: https://github.com/Zarroc2762/E7-Gear-Optimizer/releases
 
