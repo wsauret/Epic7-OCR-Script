@@ -24,7 +24,7 @@ When taking the screenshots be sure to tap on each piece of gear before screensh
 
 Run each line in succession. If you get a error like 'python is not recognized', please look up how to add python to the PATH variable.
 
-**Step 5**: Download and extract the files in this repository. Add your 2200x1080 screenshots into the screenshots folder. There is an example image in there so that you know how to take it. Just open your inventory up and click the item and then take a screenshot. Make sure you delete the example screenshot so you don't find it in the optimizer.
+**Step 5**: Download and extract the files in this repository. In the screenshots folder there is a sample image for testing to make sure everything is setup right. We know it works with this file, so test your setup first with just that file. If it works, then delete it and add your 2200x1080 screenshots to the folder. How do we actually run the file?
 
 **Step 6**: Run Anaconda Navigator. Launch JupyterLab. From within JupyterLab load the "E7 Gear OCR.ipynb" file you downloaded in this repository. Make sure the path to tesseract listed towards the top of this file is the same as the one tesseract was installed to. Then go to **Run > Run All Cells**. This will create a json file with all your gear in it in the same folder as E7 Gear OCR.ipynb
 
