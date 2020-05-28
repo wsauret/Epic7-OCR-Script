@@ -35,7 +35,7 @@ Finally, let's do a test run! Go to **Run > Run All Cells**. If you scroll down 
 
 **Step 9**: Download the latest version of the optimizer here: https://github.com/Zarroc2762/E7-Gear-Optimizer/releases and extract it. After running the optimizer, select "Import JSON from web optimizer (/u/HyrTheWinter)". Then click the "Import" button and browse to the folder that exported_gear.json is in and load it. You should see green text at the bottom saying "Succesfully imported 0 heroes and X items..." where x is the number of screenshots you took. Congratulations, you've imported your gear.
 
-**Step 10**: I highly recommend doing some quick sanity checks of the imported gear to ensure the script didnt make any mistakes. The most common error with this OCR library is adding a '7' to the end of the recognized number. So a spd sub of 10 could be recorded as 107. Go to the inventory tab in the optimizer and click each stat column heading. Just make sure that none of the highest values are crazy. Congratulations, you're done!
+**Step 10**: I highly recommend doing some quick sanity checks of the imported gear to ensure the script didnt make any mistakes. The most common error with this OCR library is adding a '7' to the end of the recognized number. So a spd sub of 10 could be recorded as 107. Go to the inventory tab in the optimizer and click each stat column heading to sort the values. Just make sure that none of the highest values are crazy. Congratulations, you're done!
 
 **Note:** In the future when you want to do this all over again, all you need to do is to copy your new screenshots into the screenshots folder, open "E7 Gear OCR.ipynb" in JupyterLab, do Run > Run All Cells. This will give you your new json file.
 
