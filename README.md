@@ -7,7 +7,8 @@ When taking the screenshots be sure to **tap** on each piece of gear before scre
 **Step 2**: Download and install the 64 bit Anaconda python 3.7 distribution for windows - https://www.anaconda.com/products/individual
 
 **Step 3**: Download and Install the latest 64 bit version of Tesseract-OCR - https://github.com/UB-Mannheim/tesseract/wiki
-Make a note of which directory you install tesseract to, this will be important later.
+
+You should install it to the default directory unless you have a good reason not to.
 
 **Step 4**: Run Anaconda Navigator, which was installed as a part of the Anaconda distribution. Launch "Powershell Prompt". Copy and paste the two lines below, in order, hitting enter after each.
 
@@ -27,7 +28,7 @@ You should see "Successfully installed [package name]" after each. Close the pro
 
 ``TESSDATA_PREFIX = r"C:\Program Files\Tesseract-OCR"``
 
-Note: Make sure the path to tesseract listed in these two lines is the same as the one you installed tesseract to earlier!
+Note: If you changed the install directory for tesseract, make sure the path to tesseract listed in these two lines is the same as the one you installed tesseract to!
 
 Finally, let's do a test run! Go to **Run > Run All Cells**. If you scroll down to the bottom of the window, you'll see a text progress indicator. When you see "JSON file finished!" you should see a new file on the lefthand side: "exported_gear.json". Double click that. If next to "items: []" it says "1 item" then the test run worked correctly. You can click the arrow to expand "items: []" if you want to see what the data looks like.
 
