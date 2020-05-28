@@ -23,9 +23,9 @@ You should see "Successfully installed [package name]" after each. Close the pro
 
 **Step 7** The first thing to do is to uncomment (delete the # in front of) these lines since we're doing this in windows:
 
-``pytesseract.pytesseract.tesseract_cmd = "C:/Program Files (x86)/Tesseract-OCR/tesseract"``
+``pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract"``
 
-``TESSDATA_PREFIX = r"C:\Program Files (x86)\Tesseract-OCR"``
+``TESSDATA_PREFIX = r"C:\Program Files\Tesseract-OCR"``
 
 Next, make sure the path to tesseract listed in these two lines is the same as the one tesseract was installed to earlier.
 
