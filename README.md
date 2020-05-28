@@ -27,7 +27,7 @@ You should see "Successfully installed [package name]" after each. Close the pro
 
 ``TESSDATA_PREFIX = r"C:\Program Files\Tesseract-OCR"``
 
-Next, make sure the path to tesseract listed in these two lines is the same as the one tesseract was installed to earlier.
+Note: Make sure the path to tesseract listed in these two lines is the same as the one you installed tesseract to earlier!
 
 Finally, let's do a test run! Go to **Run > Run All Cells**. If you scroll down to the bottom of the window, you'll see a text progress indicator. When you see "JSON file finished!" you should see a new file on the lefthand side: "exported_gear.json". Double click that. If next to "items: []" it says "1 item" then the test run worked correctly. You can click the arrow to expand "items: []" if you want to see what the data looks like.
 
