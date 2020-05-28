@@ -6,7 +6,7 @@ When taking the screenshots be sure to **tap** on each piece of gear before scre
 
 **Step 2**: Download and install the Anaconda python distribution - https://repo.anaconda.com/archive/Anaconda3-2020.02-Windows-x86_64.exe
 
-**Step 3**: Download and Install Tesseract-OCR - https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.0.0.20190526.exe
+**Step 3**: Download and Install Tesseract-OCR - https://github.com/UB-Mannheim/tesseract/wiki
 Make a note of which directory you install tesseract to, this will be important later.
 
 **Step 4**: Run Anaconda Navigator, which was installed as a part of the Anaconda distribution. Launch "Powershell Prompt". Copy and paste the two lines below, in order, hitting enter after each.
