@@ -52,7 +52,7 @@
 
 ###### Sanity Checks
 
-* I highly recommend doing some quick sanity checks of the imported gear to ensure the script didnt make any mistakes. The most common error with this OCR library is adding a '7' to the end of the recognized number. So a spd sub of 10 could be recorded as 107. Go to the inventory tab in the optimizer and click each stat column heading to sort the values. Just make sure that none of the highest values are crazy. Congratulations, you're done!
+* I highly recommend doing some quick sanity checks of the imported gear to ensure the script didnt make any mistakes. The most common error with this OCR library is adding a '7' to the end of the recognized number. So a spd sub of 10 could be recorded as 107. Go to the inventory tab in the optimizer and click each stat column heading to sort the values. Just make sure that none of the highest values are crazy. Congratulations! You're ready to start optimizing your gear.
 
 ###### Using in the Future
 
