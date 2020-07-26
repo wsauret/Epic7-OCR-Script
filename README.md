@@ -18,7 +18,7 @@ You should install it to the default directory unless you have a good reason not
 
 You should see "Successfully installed [package name]" after each. Close the prompt when done.
 
-**Step 5**: Download the files in this repository. Scroll up to the top of this webpage and click the green "Clone or Download" button, then click "Download ZIP". Extract the files somewhere (I just extracted the folder within the ZIP file to the downloads folder)
+**Step 5**: Download the files in this repository. Scroll up to the top of this webpage and click the green "Code" button, then click "Download ZIP". Extract the files somewhere (I just extracted the folder within the ZIP file to the downloads folder)
 
 **Step 6**: Return to Anaconda Navigator. Launch JupyterLab. This will open a browser window. On the lefthand side, navigate to where you extracted the folder (in my case: Downloads/epic7-master). Double click on "E7 Gear OCR.ipynb". This will open the code for the OCR script.
 
