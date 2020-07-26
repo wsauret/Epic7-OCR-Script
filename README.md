@@ -40,11 +40,15 @@
 
 ###### Copy Screenshots & Run
 
-8. In the screenshots folder (in the epic7-master folder you downloaded and extracted) there is a sample image that we just tested the script on. Delete that image and copy your 2200x1080 screenshots to the folder from the screenshots directory for your chosen emulator. Go back to JupyterLab and do **Run > Run All Cells** again. This will overwrite the "exported_gear.json" file from earlier with one that has all your gear in it.
+8. Delete the sample image in the screenshots folder (epic7-master/screenshots) that we just tested the script on.
+
+9. Copy your 2200x1080 screenshots to epic7-master/screenshots from where ever you have the stored.
+
+10. Go back to JupyterLab and do **Run > Run All Cells** again. This will overwrite the "exported_gear.json" file from earlier with one that has all your gear in it. Congratulations! You're done with this script.
 
 ###### Optimizer
 
-* Download the latest version of the optimizer here: https://github.com/Zarroc2762/E7-Gear-Optimizer/releases and extract it. After running the optimizer, select "Import JSON from web optimizer (/u/HyrTheWinter)". Then click the "Import" button and browse to the folder that exported_gear.json is in and load it. You should see green text at the bottom saying "Succesfully imported 0 heroes and X items..." where x is the number of screenshots you took. Congratulations, you've imported your gear.
+* Make sure you have the latest version of the optimizer here: https://github.com/Zarroc2762/E7-Gear-Optimizer/releases. After running the optimizer, select "Import JSON from web optimizer (/u/HyrTheWinter)". Then click the "Import" button and browse to the folder that exported_gear.json is in and load it. You should see green text at the bottom saying "Succesfully imported 0 heroes and X items..." where x is the number of screenshots you took. Congratulations! You've imported your gear.
 
 ###### Sanity Checks
 
