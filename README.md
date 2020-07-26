@@ -26,7 +26,7 @@
 
 4. Download the files in this repository. Scroll up to the top of this webpage and click the green "Code" button, then click "Download ZIP". Extract the files somewhere (I just extracted the folder within the ZIP file to the downloads folder)
 
-5. Return to Anaconda Navigator. Launch JupyterLab. This will open a browser window. On the lefthand side, navigate to where you extracted the folder (in my case: Downloads/epic7-master). Double click on "E7 Gear OCR.ipynb". This will open the code for the OCR script.
+5. Return to Anaconda Navigator. Launch JupyterLab. This will open a browser window. On the lefthand side, navigate to where you extracted the folder (in my case: ``Downloads/epic7-master``). Double click on "E7 Gear OCR.ipynb". This will open the code for the OCR script.
 
 6. Uncomment (delete the # in front of) these lines since we're doing this in windows:
 
@@ -40,9 +40,9 @@
 
 ###### Copy Screenshots & Run
 
-8. Delete the sample image in the screenshots folder (epic7-master/screenshots) that we just tested the script on.
+8. Delete the sample image in the screenshots folder (``epic7-master/screenshots``) that we just tested the script on.
 
-9. Copy your 2200x1080 screenshots to epic7-master/screenshots from where ever you have the stored.
+9. Copy your 2200x1080 gear screenshots to ``epic7-master/screenshots`` from whereever you have them stored.
 
 10. Go back to JupyterLab and do **Run > Run All Cells** again. This will overwrite the "exported_gear.json" file from earlier with one that has all your gear in it. Congratulations! You're done with this script.
 
