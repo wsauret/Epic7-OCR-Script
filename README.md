@@ -8,19 +8,19 @@
 
 ###### Python Setup
 
-**Step 1**: Download and install the 64 bit Anaconda python 3.7 distribution for windows - https://www.anaconda.com/products/individual
+1. Download and install the 64 bit Anaconda python 3.7 distribution for windows - https://www.anaconda.com/products/individual
 
-**Step 2**: Download and Install the latest 64 bit version of Tesseract-OCR - https://github.com/UB-Mannheim/tesseract/wiki
+2. Download and Install the latest 64 bit version of Tesseract-OCR - https://github.com/UB-Mannheim/tesseract/wiki
 
 You should install it to the default directory unless you have a good reason not to.
 
-**Step 3**: Run Anaconda Navigator, which was installed as a part of the Anaconda distribution. Launch "Powershell Prompt". Copy and paste the two lines below, in order, hitting enter after each.
+3. Run Anaconda Navigator, which was installed as a part of the Anaconda distribution. Launch "Powershell Prompt". Copy and paste the two lines below, in order, hitting enter after each.
 
-``pip install pytesseract``
+    ``pip install pytesseract``
 
-``pip install opencv-python``
+    ``pip install opencv-python``
 
-You should see "Successfully installed [package name]" after each. Close the prompt when done.
+    You should see "Successfully installed [package name]" after each. Close the prompt when done.
 
 ###### Download and Edit the Script
 
