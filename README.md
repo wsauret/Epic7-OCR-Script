@@ -12,7 +12,7 @@
 
 2. Download and Install the latest 64 bit version of Tesseract-OCR - https://github.com/UB-Mannheim/tesseract/wiki
 
-You should install it to the default directory unless you have a good reason not to.
+    You should install it to the default directory unless you have a good reason not to.
 
 3. Run Anaconda Navigator, which was installed as a part of the Anaconda distribution. Launch "Powershell Prompt". Copy and paste the two lines below, in order, hitting enter after each.
 
@@ -24,23 +24,23 @@ You should install it to the default directory unless you have a good reason not
 
 ###### Download and Edit the Script
 
-**Step 4**: Download the files in this repository. Scroll up to the top of this webpage and click the green "Code" button, then click "Download ZIP". Extract the files somewhere (I just extracted the folder within the ZIP file to the downloads folder)
+4. Download the files in this repository. Scroll up to the top of this webpage and click the green "Code" button, then click "Download ZIP". Extract the files somewhere (I just extracted the folder within the ZIP file to the downloads folder)
 
-**Step 5**: Return to Anaconda Navigator. Launch JupyterLab. This will open a browser window. On the lefthand side, navigate to where you extracted the folder (in my case: Downloads/epic7-master). Double click on "E7 Gear OCR.ipynb". This will open the code for the OCR script.
+5. Return to Anaconda Navigator. Launch JupyterLab. This will open a browser window. On the lefthand side, navigate to where you extracted the folder (in my case: Downloads/epic7-master). Double click on "E7 Gear OCR.ipynb". This will open the code for the OCR script.
 
-**Step 6** Uncomment (delete the # in front of) these lines since we're doing this in windows:
+6. Uncomment (delete the # in front of) these lines since we're doing this in windows:
 
-``pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract"``
+    ``pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract"``
 
-``TESSDATA_PREFIX = r"C:\Program Files\Tesseract-OCR"``
+    ``TESSDATA_PREFIX = r"C:\Program Files\Tesseract-OCR"``
 
-Note: If you changed the install directory for tesseract, make sure the path to tesseract listed in these two lines is the same as the one you installed tesseract to!
+    Note: If you changed the install directory for tesseract, make sure the path to tesseract listed in these two lines is the same as the one you installed tesseract to!
 
-**Step 7**: Let's do a test run! Go to **Run > Run All Cells**. If you scroll down to the bottom of the window, you'll see a text progress indicator. When you see "JSON file finished!" you should see a new file on the lefthand side: "exported_gear.json". Double click that. If next to "items: []" it says "1 item" then the test run worked correctly. You can click the arrow to expand "items: []" if you want to see what the data looks like.
+7. Let's do a test run! Go to **Run > Run All Cells**. If you scroll down to the bottom of the window, you'll see a text progress indicator. When you see "JSON file finished!" you should see a new file on the lefthand side: "exported_gear.json". Double click that. If next to "items: []" it says "1 item" then the test run worked correctly. You can click the arrow to expand "items: []" if you want to see what the data looks like.
 
 ###### Copy Screenshots & Run
 
-**Step 8** In the screenshots folder (in the epic7-master folder you downloaded and extracted) there is a sample image that we just tested the script on. Delete that image and copy your 2200x1080 screenshots to the folder from the screenshots directory for your chosen emulator. Go back to JupyterLab and do **Run > Run All Cells** again. This will overwrite the "exported_gear.json" file from earlier with one that has all your gear in it.
+8. In the screenshots folder (in the epic7-master folder you downloaded and extracted) there is a sample image that we just tested the script on. Delete that image and copy your 2200x1080 screenshots to the folder from the screenshots directory for your chosen emulator. Go back to JupyterLab and do **Run > Run All Cells** again. This will overwrite the "exported_gear.json" file from earlier with one that has all your gear in it.
 
 ###### Optimizer
 
