@@ -4,7 +4,7 @@
 
 * Start by taking all your screenshots. You will only be able to use this OCR file in conjunction with screenshots of each piece of gear you want in the optimizer. The screenshots are must be taken in an emulator and you must set the emulator resolution to **2200x1080** in order for the script to work. **Nox** and **LDPlayer** support this resolution and take compatible screenshots. We recently discovered that **MuMu** does not take screenshots compatible with this script. Sorry for the inconvenience.
 
-When taking the screenshots be sure to **tap** on each piece of gear before screenshotting. Do not hover/hold down your finger on each one, as the placement of the item box is different between tapping and holding. Once you've screenshotted all your gear, move on to the next step.
+* When taking the screenshots be sure to **tap** on each piece of gear before screenshotting. Do not hover/hold down your finger on each one, as the placement of the item box is different between tapping and holding. Once you've screenshotted all your gear, move on to the next step.
 
 ###### Python Setup
 
