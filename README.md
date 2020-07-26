@@ -34,7 +34,7 @@
 
     ``TESSDATA_PREFIX = r"C:\Program Files\Tesseract-OCR"``
 
-    Note: If you went against my advice and changed the install directory for tesseract, make sure to change the path to tesseract in these two lines to whereever your installed tesseract!
+    Note: If you went against my advice and changed the install directory for tesseract, make sure to change the path to tesseract in these two lines to wherever your installed tesseract!
 
 7. Let's do a test run! Go to **Run > Run All Cells**. If you scroll down to the bottom of the window, you'll see a text progress indicator. When you see "JSON file finished!" you should see a new file on the lefthand side: "exported_gear.json". Double click that. If next to "items: []" it says "1 item" then the test run worked correctly. You can click the arrow to expand "items: []" if you want to see what the data looks like.
 
@@ -42,7 +42,7 @@
 
 8. Delete the sample image in the screenshots folder (``epic7-master/screenshots``) that we just tested the script on.
 
-9. Copy your 2200x1080 gear screenshots to ``epic7-master/screenshots`` from whereever you have them stored.
+9. Copy your 2200x1080 gear screenshots to ``epic7-master/screenshots`` from wherever you have them stored.
 
 10. Go back to JupyterLab and do **Run > Run All Cells** again. This will overwrite the "exported_gear.json" file from earlier with one that has all your gear in it. Congratulations! You're done with this script.
 
