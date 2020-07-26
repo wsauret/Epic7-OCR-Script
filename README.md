@@ -24,9 +24,9 @@
 
 ###### Download and Edit the Script
 
-4. Download the files in this repository. Scroll up to the top of this webpage and click the green "Code" button, then click "Download ZIP". Extract the files somewhere (I just extracted the folder within the ZIP file to the downloads folder)
+4. Download the files in this repository. Scroll up to the top of this webpage and click the green "Code" button, then click "Download ZIP". Extract the files somewhere (I extracted the folder inside the ZIP file to the Downloads folder since that was where the ZIP already was).
 
-5. Return to Anaconda Navigator. Launch JupyterLab. This will open a browser window. On the lefthand side, navigate to where you extracted the folder (in my case: ``Downloads/epic7-master``). Double click on "E7 Gear OCR.ipynb". This will open the code for the OCR script.
+5. Return to Anaconda Navigator. Launch JupyterLab. This will open a browser window. Once it is loaded, look at the side bar on the left. Navigate to where you extracted the folder (in my case: ``Downloads/epic7-master``). Double click on "E7 Gear OCR.ipynb". This will open the code for the OCR script.
 
 6. Uncomment (delete the # in front of) these lines since we're doing this in windows:
 
@@ -34,7 +34,7 @@
 
     ``TESSDATA_PREFIX = r"C:\Program Files\Tesseract-OCR"``
 
-    Note: If you changed the install directory for tesseract, make sure the path to tesseract listed in these two lines is the same as the one you installed tesseract to!
+    Note: If you went against my advice and changed the install directory for tesseract, make sure to change the path to tesseract in these two lines to whereever your installed tesseract!
 
 7. Let's do a test run! Go to **Run > Run All Cells**. If you scroll down to the bottom of the window, you'll see a text progress indicator. When you see "JSON file finished!" you should see a new file on the lefthand side: "exported_gear.json". Double click that. If next to "items: []" it says "1 item" then the test run worked correctly. You can click the arrow to expand "items: []" if you want to see what the data looks like.
 
