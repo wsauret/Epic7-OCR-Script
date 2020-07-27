@@ -22,7 +22,7 @@
 
     You should see "Successfully installed [package name]" after each. Close the prompt when done.
 
-###### Download and Edit the Script
+###### Download and Test the Script
 
 4. Download the files in this repository. To do this, scroll up to the top of this webpage and click the green ``Code`` button, then click ``Download ZIP``. Extract the folder somewhere (I extracted it to the Downloads folder since that was where the ZIP file already was).
 
