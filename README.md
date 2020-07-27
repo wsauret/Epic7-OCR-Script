@@ -50,6 +50,10 @@
 
 ###### Using in the Future
 
-* In the future when you want to do this all over again, all you need to do is to copy your new screenshots into the screenshots folder, open "E7 Gear OCR.ipynb" in JupyterLab, do Run > Run All Cells. This will give you your new json file.
+* In the future when you want to refresh your gear, you should first check this github again to see if I updated ``E7 Gear OCR.ipynb``. If I did, download it and replace your old copy. Then all you need to do is to copy your new screenshots into the screenshots folder, open ``E7 Gear OCR.ipynb`` in ``JupyterLab`` (via ``Anaconda Navigator``, do Run > Run All Cells. This will give you your new json file.
 
-* If you **don't** want to keep the heroes you previously added to the optimizer, then just import the json as above. If you **do** want to keep your heroes, I suggest that you first delete all the items in the optimizer (go to the Inventory tab, highlight all the items, click the "-" button). Then on the General tab click the "Append" button (instead of "Import") and load your new json. This will add your up to date gear into the optimizer while keeping your heroes.
+* Then when you go to import your new json into the optimizer you have a choice:
+
+    If you **don't** want to keep the heroes you previously added to the optimizer, then just import the json as above.
+    
+    If you **do** want to keep your heroes, I suggest that you first delete all the items in the optimizer (go to the Inventory tab, highlight all the items, click the "-" button). Then on the General tab click the "Append" button (instead of "Import") and load your new json. This will add your up to date gear into the optimizer while keeping your heroes.
