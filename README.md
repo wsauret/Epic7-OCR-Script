@@ -28,7 +28,7 @@
 
 5. Return to ``Anaconda Navigator``. Launch ``JupyterLab`` from the tile menu. This will open a browser window. Once it is loaded, look at the sidebar on the left. Navigate to where you extracted the folder (in my case: ``Downloads/epic7-master``). Double click on ``E7 Gear OCR.ipynb``. This will open the code for the OCR script.
 
-6. Let's do a test run! In the menu at the top, click **Run > Run All Cells**. If you scroll down to the bottom of the window, you'll see a text progress indicator. When you see ``JSON file finished!`` you should see a new file in the sidebar: ``exported_gear.json``. Double click that. If next to ``items: []`` it says ``1 item`` then the test run worked correctly.
+6. Let's do a test run! In the menu at the top, click ``Run > Run All Cells``. If you scroll down to the bottom of the window, you'll see a text progress indicator. When you see ``JSON file finished!`` you should see a new file in the sidebar: ``exported_gear.json``. Double click that. If next to ``items: []`` it says ``1 item`` then the test run worked correctly.
 
     Note: You can click the arrow to expand ``items: []`` if you want to see what the item data looks like.
 
@@ -38,7 +38,7 @@
 
 8. Copy your 2200x1080 gear screenshots to ``epic7-master/screenshots`` from wherever you have them stored.
 
-9. Go back to the JupyterLab browser tab and do **Run > Run All Cells** again. This will overwrite ``exported_gear.json`` with one that has all your gear in it. Congratulations! You're done with this script.
+9. Go back to the JupyterLab browser tab and do ``Run > Run All Cells`` again. This will overwrite ``exported_gear.json`` with one that has all your gear in it. Congratulations! You're done with this script.
 
 ###### Optimizer
 
@@ -50,10 +50,10 @@
 
 ###### Using in the Future
 
-* In the future when you want to refresh your gear, you should first check this github again to see if I updated ``E7 Gear OCR.ipynb``. If I did, download it and replace your old copy. Then all you need to do is to copy your new screenshots into the screenshots folder, open ``E7 Gear OCR.ipynb`` in ``JupyterLab`` (via ``Anaconda Navigator``, do Run > Run All Cells. This will give you your new json file.
+* In the future when you want to refresh your gear, you should first check this github again to see if I updated ``E7 Gear OCR.ipynb``. If I did, download it and replace your old copy. Then all you need to do is to copy your new screenshots into the screenshots folder, open ``E7 Gear OCR.ipynb`` in ``JupyterLab`` (via ``Anaconda Navigator``), then ``Run > Run All Cells``. This will give you your new json file.
 
 * Then when you go to import your new json into the optimizer you have a choice:
 
     If you **don't** want to keep the heroes you previously added to the optimizer, then just import the json as above.
     
-    If you **do** want to keep your heroes, I suggest that you first delete all the items in the optimizer (go to the Inventory tab, highlight all the items, click the "-" button). Then on the General tab click the "Append" button (instead of "Import") and load your new json. This will add your up to date gear into the optimizer while keeping your heroes.
+    If you **do** want to keep your heroes, I suggest that you first delete all the items in the optimizer (go to the Inventory tab, highlight all the items, click the ``-`` button). Then on the General tab click the ``Append`` button (instead of ``Import``) and load your new json. This will add your up to date gear into the optimizer while keeping your heroes.
