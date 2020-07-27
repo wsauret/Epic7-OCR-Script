@@ -38,7 +38,7 @@
 
 8. Copy your 2200x1080 gear screenshots to ``epic7-master/screenshots`` from wherever you have them stored.
 
-9. Go back to the JupyterLab browser tab and do ``Run > Run All Cells`` again. This will overwrite ``exported_gear.json`` with one that has all your gear in it. Congratulations! You're done with this script.
+9. Go back to the ``JupyterLab`` browser tab and do ``Run > Run All Cells`` again. This will overwrite ``exported_gear.json`` with one that has all your gear in it. Congratulations! You're done with this script.
 
 ###### Optimizer
 
