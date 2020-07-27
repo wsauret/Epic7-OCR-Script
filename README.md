@@ -30,7 +30,7 @@
 
 6. Let's do a test run! In the menu at the top, click **Run > Run All Cells**. If you scroll down to the bottom of the window, you'll see a text progress indicator. When you see ``JSON file finished!`` you should see a new file in the sidebar: ``exported_gear.json``. Double click that. If next to ``items: []`` it says ``1 item`` then the test run worked correctly.
 
-    Note: You can click the arrow to expand "items: []" if you want to see what the data looks like.
+    Note: You can click the arrow to expand ``items: []`` if you want to see what the item data looks like.
 
 ###### Copy Screenshots & Run
 
