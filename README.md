@@ -8,7 +8,7 @@
 
 ###### Python Setup
 
-1. Download and install the 64 bit Anaconda python 3.7 distribution for windows - https://www.anaconda.com/products/individual
+1. Download and install the 64 bit Anaconda python 3.x distribution for windows - https://www.anaconda.com/products/individual
 
 2. Download and Install the latest 64 bit version of Tesseract-OCR - https://github.com/UB-Mannheim/tesseract/wiki
 
