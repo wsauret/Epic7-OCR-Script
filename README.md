@@ -29,6 +29,7 @@
 5. Return to ``Anaconda Navigator``. Launch ``JupyterLab`` from the tile menu. This will open a browser window. Once it is loaded, look at the sidebar on the left. Navigate to where you extracted the folder (in my case: ``Downloads/epic7-master``). Double click on ``E7 Gear OCR.ipynb``. This will open the code for the OCR script.
 
 6. Let's do a test run! In the menu at the top, click **Run > Run All Cells**. If you scroll down to the bottom of the window, you'll see a text progress indicator. When you see ``JSON file finished!`` you should see a new file in the sidebar: ``exported_gear.json``. Double click that. If next to ``items: []`` it says ``1 item`` then the test run worked correctly.
+
     Note: You can click the arrow to expand "items: []" if you want to see what the data looks like.
 
 ###### Copy Screenshots & Run
