@@ -14,6 +14,9 @@
 
     You should install it to the default directory unless you have a good reason not to.
 
+    **If you want to use this tools with korean language, you should install
+    Additional Script Data / Hangul & Hangul vertical.**
+
 3. The Anaconda python distribution will have installed a launcher named ``Anaconda Navigator``. Run it, then launch ``Powershell Prompt`` from the tile menu. Copy and paste the two lines below into the prompt, in succession, hitting enter after each.
 
     ``pip install pytesseract``
