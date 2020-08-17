@@ -64,6 +64,6 @@
 
 ###### Korean Screenshot Support
 
-**If you want to use this tools with korean language, you should install Additional Script Data / Hangul & Hangul vertical.**
+**If you want to use this script with korean screenshots, you need to configure your installation of tesseract to install the Hangul & Hangul vertical script components.**
 
 ![image](https://user-images.githubusercontent.com/9090157/90422051-40621300-e0f5-11ea-921c-b4ed86f13fc5.png)
