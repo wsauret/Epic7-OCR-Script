@@ -68,4 +68,4 @@
 
 ![image](https://user-images.githubusercontent.com/9090157/90422051-40621300-e0f5-11ea-921c-b4ed86f13fc5.png)
 
-* Next, you need to use ``E7 Gear OCR Kor.ipynb`` instead of ``E7 Gear OCR.ipynb``. Otherwise, everything else should be the same. Thanks to @bangin20 for adding Korean language support.
+* Next, you need to use ``E7 Gear OCR Kor.ipynb`` instead of ``E7 Gear OCR.ipynb``. Otherwise, everything else should be the same. Thanks to @bangin20 for adding Korean language support. I should note, however, that Korean language support is being provided as-is. I will be unable to help with problems as it is not my work and I do not understand Korean.
