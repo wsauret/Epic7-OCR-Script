@@ -6,7 +6,7 @@
 
 * **Approved Emulators**: Nox and LDPlayer. These will take screenshots at the internal resolution (2200x1080).
 
-* **Broken Emulators**: Bluestacks and MuMu. Neither take screenshots at the internal resolution. Instead the screenshot resolution is determined by the size of the window.
+* **Broken Emulators**: Bluestacks and MuMu. Neither take screenshots at the internal resolution. Instead the screenshot resolution is determined by the size of the window. DO NOT USE THEM.
 
 * When taking a screenshot be sure to **tap** on each piece of gear to bring up its stats before screenshotting. Do not hold down your finger on each one, as the placement of the item box is different between tapping and holding.
 
