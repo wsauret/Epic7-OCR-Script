@@ -4,9 +4,9 @@
 
 * You will only be able to use this OCR file with screenshots of each piece of gear you want in the optimizer. The screenshots must be taken in an emulator because the device resolution must be **2200x1080** in order for the script to work (and most phones are not this resolution). You can check the resolution of your screenshots by looking at them in any photo app.
 
-* **Approved Emulators**: Nox and LDPlayer. These will take screenshots at the internal resolution (2200x1080).
+* **Approved Emulators**: Nox and LDPlayer. These will take screenshots at the internal resolution (2200x1080). Test other emulators at your own risk.
 
-* **Broken Emulators**: Bluestacks and MuMu. Neither take screenshots at the internal resolution. Instead the screenshot resolution is determined by the size of the window. DO NOT USE THEM.
+* **Emulators Known to NOT work**: Bluestacks and MuMu. Neither take screenshots at the internal resolution. Instead the screenshot resolution is determined by the size of the window. DO NOT USE THEM.
 
 * When taking a screenshot be sure to **tap** on each piece of gear to bring up its stats before screenshotting. Do not hold down your finger on each one, as the placement of the item box is different between tapping and holding.
 
