@@ -2,7 +2,7 @@
 
 ###### Screenshots
 
-* You will only be able to use this OCR script with screenshots of each piece of gear you want in the optimizer. The screenshots must be taken in an emulator because the screenshot resolution must be **2200x1080** in order for the script to work (and most phones are not this resolution). You can check the resolution of your screenshots by looking at them in any photo app.
+* You will only be able to use this OCR script with screenshots of each piece of gear you want in the optimizer. The screenshots must be taken in an `approved emulator` because the screenshot resolution must be **2200x1080** in order for the script to work. This is an usual resolution and most phones do not match it. You can check the resolution of your screenshots by looking at them in any photo app.
 
 * **Approved Emulators**: Nox and LDPlayer. These will take screenshots at the internal resolution (2200x1080). Test other emulators at your own risk. Feel free to open an Issue if you have success with another emulator and I will add it to the approved list!
 
