@@ -8,7 +8,7 @@
 
 ###### Screenshots
 
-* You will only be able to use this OCR script with screenshots of each piece of gear you want in the optimizer. The screenshots must be taken in an **approved emulator** because the screenshot resolution must be **2200x1080** in order for the script to work. This is an usual resolution and most phones do not match it. You can check the resolution of your screenshots by looking at them in any photo app.
+* To use this script you will need screenshots of all the gear you want to import into the optimizer. The resolution of the screenshots must be **2200x1080**. This is an uncommon resolution (most phones do not match it), so I suggest that you take your screenshots via an **approved emulator** set to an internal resolution of **2200x1080**. You can verify the resolution of your screenshots by examining them in a photo app.
 
 * **Approved Emulators**: Nox and LDPlayer. These will take screenshots at the internal resolution (2200x1080). Test other emulators at your own risk. If you have success with another emulator, feel free to open an [Issue](https://github.com/compeanansi/epic7/issues) and I will add it to the approved list!
 
