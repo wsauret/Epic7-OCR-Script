@@ -4,7 +4,7 @@
 
 * I started a new job and so I no longer have much free time. As a result, I have quit playing Epic Seven. This means I no longer have access to gear screenshots to test/debug the script when issues arise. It also means I don't really have enough free time to keep this script updated on my own.
 
-* However, I am happy to merge pull requests that update the script's functionality to keep it running. If you don't know how to do a pull request, but have a proposed code update, just open and issue and paste the new code and I'll manually merge it.
+* If things break in the future and I do not have time to fix it myself, I am happy to merge pull requests from you guys to keep it running. If you don't know how to do a pull request but have a proposed code update, just open and issue and paste the new code and I'll manually merge it to the main branch.
 
 ###### Screenshots
 
