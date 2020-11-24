@@ -12,9 +12,9 @@
 
 * **Approved Emulators**: Nox and LDPlayer. These will take screenshots at the internal resolution (2200x1080). Test other emulators at your own risk. If you have success with another emulator, feel free to open an [Issue](https://github.com/compeanansi/epic7/issues) and I will add it to the approved list!
 
-* **Emulators that do NOT work**: Bluestacks and MuMu. Neither take screenshots at the internal resolution. Instead the screenshot resolution is determined by the size of the window. DO NOT USE THEM. Their screenshots are not compatible with this script. I added new error checking to the script to ensure the screenshots are the proper resolution.
+* **Emulators that do NOT work**: Bluestacks and MuMu. Neither take screenshots at the internal resolution. Instead the screenshot resolution is determined by the size of the window. DO NOT USE THEM. Their screenshots are unfortunately not compatible with this script.
 
-* When taking a screenshot be sure to **tap** on each piece of gear to bring up its stats before screenshotting. Do not hold down your finger on each one, as the placement of the item box is different between tapping and holding.
+* Tip: When taking a screenshot be sure to **tap** on each piece of gear to bring up its stats before screenshotting. Do not hold down your finger on each one, as the placement of the item box is different between tapping and holding.
 
 ###### Python Setup
 
