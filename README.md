@@ -16,6 +16,8 @@
 
 * Tip: When taking a screenshot be sure to **tap** on each piece of gear to bring up its stats before screenshotting. Do not hold down your finger on each one, as the placement of the item box is different between tapping and holding.
 
+### Installation
+
 ###### Python Setup
 
 1. Download and install the **64 bit** Anaconda python 3.x distribution for Windows: https://www.anaconda.com/products/individual
@@ -55,6 +57,8 @@
 * Make sure you have the latest version of the optimizer here: https://github.com/Zarroc2762/E7-Gear-Optimizer/releases.
 
 * After launching the optimizer, select ``Import JSON from web optimizer (/u/HyrTheWinter)``. Then click the ``Import`` button and browse to the folder that ``exported_gear.json`` is in and load it. You should see green text at the bottom saying ``Succesfully imported 0 heroes and X items...`` where x is the number of screenshots you took. Congratulations! You've imported your gear into the optimizer.
+
+### Next Steps
 
 ###### Sanity Checks
 
