@@ -69,11 +69,3 @@
     * If you **don't** want to keep the heroes you previously added to the optimizer, then just import the json as above.
     
     * If you **do** want to keep your heroes, I suggest that you first delete all the items in the optimizer (go to the Inventory tab, highlight all the items, click the ``-`` button). Then on the General tab click the ``Append`` button (instead of ``Import``) and load your new json. This will add your up to date gear into the optimizer while keeping your heroes.
-
-###### Korean Screenshot Support
-
-* If you want to use this script with korean screenshots, you need to configure your installation of tesseract to install the Hangul & Hangul vertical script components. See the screenshot below:
-
-![image](https://user-images.githubusercontent.com/9090157/90422051-40621300-e0f5-11ea-921c-b4ed86f13fc5.png)
-
-* Next, you need to use ``E7 Gear OCR Kor.ipynb`` instead of ``E7 Gear OCR.ipynb``. Otherwise, everything else should be the same. Thanks to @bangin20 for adding Korean language support. I should note, however, that Korean language support is being provided as-is. I will be unable to help with problems as it is not my work and I do not understand Korean.
